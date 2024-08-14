@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        My-First-Web-Page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="navbar">
+        <img id="logo" alt="jovian logo" src="https://jovian.com/jovian_logo.svg" />
+    </div>
+    <img id="banner" src="jobs.jpg" alt="banner" height="240">
+    <h1> About Jovian</h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0; margin-left: 4px;">
+                At Jovian,We're on a mission to built the world's most highly reputed
+                technical university,and we,re building it completely online. We offer
+                several beginner friendly cources that are take by 300,000+ registered
+                users. <b>panipat,India.</b> </p>
+            <p>
+                We also offer 2 industry-focused bootcamps
+            <ol>
+                <li>
+                    <a href="https://www.jovian.com/full-stack-developer-bootcamp" target="_blank">
+                        Manik Full Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://sitebulb.com/hints/security/https-url-links-to-an-http-url/" target="_blank">
+                        Manik Data Science Bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="Team">
+            <img id="Team-image" src="team.jpg" alt="team">
+        </div>
+    </div>
+    <h2>Job Opportinities
+    </h2>
+    <div id="jobs">
+    <table id="Jobs-table">
+        <tr class="Jobs-header-row">
+            <th rowspan="2">Job Title</th>
+            <th colspan="2">Location</th>
+            <th rowspan="2">Salary</th>
+            <th rowspan="2">Posted on</th>
+        <tr class="Jobs-header-row">
+            <th>city</th>
+            <th>country</th>
+        </tr>
+        </tr>
+        <tr class="Jobs-data-row">
+            <td>Frontent Eng.</td>
+            <td>Bengaluru</td>
+            <td>India</td>
+            <td>Rs 12,00,000</td>
+            <td>Mar 03 2025</td>
+        </tr>
+        <tr  class="Jobs-data-row">
+            <td>Full stock Eng.</td>
+            <td>Delhi</td>
+            <td>India</td>
+            <td>Rs 15,00,000</td>
+            <td>Mar 03 2025</td>
+        </tr>
+        <tr  class="Jobs-data-row">
+            <td>Data Scientist</td>
+            <td>San Francisco</td>
+            <td>USA</td>
+            <td>$ 175,000</td>
+            <td>Mar 03 2025</td>
+        </tr>
+        <tr  class="Jobs-data-row">
+            <td>ML Engineer</td>
+            <td colspan="2">Remote</td>
+            <td>$ 80,000</td>
+            <td>Mar 03 2025</td>
+        </tr>
+    </table>
+    </div>
+
+    <div id="application">
+        <h2>submit Youur Application</h2>
+
+        <form id="application-form" action="https://formbold.com/s/oJVge" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="name"> Full Name</label><br>
+            <input type="text" id="name" name=" Full Name" required placeholder="Manik Saini">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email adddress" required placeholder="Msaini@example.com">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
+        </div>
+
+        <div class="form-group">
+            <label for="dob">Date Of Birth</label><br>
+            <input type="date" id="dob" name="dob" requireds>
+        </div>
+
+        <div class="form-group">
+            <label for="position">Position Applied For</label><br>
+            <select id="position" name="position Applied" required>
+                <option value="">Select position</opetion>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Full stack Developer">Full stack Developer</option>
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="ML Engineer"> ML Engineer</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="resume">Uplode Resume</label><br>
+            <input type="file" id="resume" name="resume" accept="pdf,.doc,.docx" required>
+        </div>
+
+        <div class="form-group">
+            <label for="coverletter">Cover Letter</label><br>
+            <textarea id="coverletter" name="coverletter" rowspan="5" required placeholder="Example what makes you suitable for the job..."></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required>I agree to the terms and conditions</label>
+
+        </div>
+
+        <div class="form-group">
+            <input type="Submit" value="Submit Application">
+        </div>
+    </form>
+    </div>
+        <div id="footer">
+            <ul id="footer-links">
+                <li>
+                    <a href="https://www.instagram.com/p/C0l3fM_Poog/?igsh=MWlzM2dpdjl6cTB3ZA==" target="_blank">
+                Instagram
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://snapchat.com/t/CAsKKgXb" target="_blank">
+                Snapchat
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/@maniksaini1044?si=YzXX0El06WMoeQqh" target="_blank">
+                Youtube
+                    </a>
+                </li>
+            </ul>
+            <span class="copyright">©2023,Jovian</span>
+        </div>
+</body>
+</html>
